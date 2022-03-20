@@ -340,6 +340,9 @@ body .container .surprise {
   letter-spacing: 0.05em;
   padding: 0.5em 0;
 }
+.welcome .welcome__content .welcome__description .fas {
+  color: #e170ca;
+}
 @media screen and (min-width: 1000px) {
   .welcome .welcome__content .welcome__description {
     padding: 0.25em;
@@ -514,7 +517,8 @@ body .container .surprise {
   color: rgba(252, 72, 135, 0.21);
 }
 .girl .continue__cta {
-  background-color: rgba(252, 72, 135, 0.21);
+  background-color: #f8beeb;
+  border: 4px dotted #ee73ca;
   color: white;
 }
 
@@ -522,7 +526,8 @@ body .container .surprise {
   color: #494848;
 }
 .boy .continue__cta {
-  background-color: #494848;
+  background-color: #a7d8f3;
+  border: 4px dotted #385d67;
   color: white;
 }
 
@@ -530,7 +535,8 @@ body .container .surprise {
   color: #adad58;
 }
 .surprise .continue__cta {
-  background-color: #adad58;
+  background-color: #e8cd91;
+  border: 4px dotted #daa832;
   color: white;
 }
 

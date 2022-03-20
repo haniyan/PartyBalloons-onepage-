@@ -41,8 +41,11 @@ height: auto;
       color: $second-text-color;
       line-height: 2em;
       letter-spacing: 0.05em;
-
       padding: 0.5em 0;
+
+      .fas{
+        color: #e170ca;
+      }
       @include tablet {
         padding: 0.25em;
       }
