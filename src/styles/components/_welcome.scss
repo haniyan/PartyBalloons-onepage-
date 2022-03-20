@@ -1,0 +1,53 @@
+.welcome {
+height: auto;
+  padding: 3em;
+
+  @include desktop {
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include tablet {
+    display: flex;
+  }
+
+  .welcome__content {
+
+  height: auto;
+
+    @include tablet {
+
+    }
+    @include desktop {
+
+    }
+
+    .welcome__title {
+      font-size: 2.5em;
+      font-weight: 900;
+      color: rgb(225, 112, 202);
+      @include tablet {
+        padding: 0.25em;
+      }
+      @include desktop {
+      margin-bottom: 1em;
+
+      }
+    }
+
+    .welcome__description {
+      color: $second-text-color;
+      line-height: 2em;
+      letter-spacing: 0.05em;
+
+      padding: 0.5em 0;
+      @include tablet {
+        padding: 0.25em;
+      }
+    }
+  }
+
+
+}

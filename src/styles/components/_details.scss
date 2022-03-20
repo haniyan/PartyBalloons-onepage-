@@ -1,0 +1,106 @@
+.details {
+
+  width: 100%;
+
+
+  .details__content {
+
+    border-radius: 40px;
+    padding: 2em;
+    @include desktop {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 4em 0 4em 0;
+    }
+
+    .details__description {
+      width: 48%;
+      margin-right: 3em;
+
+      .description__title {
+        font-size: 2.5em;
+        font-weight: 900;
+      }
+
+      .description__info {
+        padding-top: 2em;
+        color: $second-text-color;
+        line-height: 2em;
+        letter-spacing: 0.05em;
+
+      }
+
+      .continue__cta {
+        @include details-btn;
+        @include desktop {
+          margin: 1em 0;
+        }
+      }
+    }
+
+    .details__gallery {
+      width: 48%;
+      margin-top: 6em;
+      @include desktop {
+        margin: 0 3em auto 0;
+      }
+
+
+
+      .gallery__container {
+        margin-left: 3em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .gallery__thumbnail {
+          width: 49%;
+          border-radius: 10px;
+          margin: 0.4em 0;
+
+        }
+      }
+    }
+  }
+}
+
+.girl {
+  .description__title {
+    color: $logo-background-color;
+  }
+
+  .continue__cta {
+    background-color: $logo-background-color;
+    color: white;
+  }
+
+
+}
+
+.boy {
+  .description__title {
+    color: $main-text-color;
+  }
+
+  .continue__cta {
+    background-color: $main-text-color;
+    color: white;
+  }
+
+
+}
+
+.surprise {
+  .description__title {
+    color: $surprise-color;
+  }
+
+  .continue__cta {
+    background-color: $surprise-color;
+    color: white;
+  }
+
+
+}
